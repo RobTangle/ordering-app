@@ -2,7 +2,7 @@ import { DatabaseModule } from '@app/common';
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import { MongooseModule } from '@nestjs/mongoose';
-import Joi from 'joi';
+import * as Joi from 'joi';
 import { OrdersController } from './orders.controller';
 import { OrdersRepository } from './orders.repository';
 import { OrdersService } from './orders.service';
