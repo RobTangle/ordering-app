@@ -2,7 +2,7 @@ import { AbstractRepository } from '@app/common';
 import { Logger } from '@nestjs/common';
 import { Injectable } from '@nestjs/common';
 import { InjectConnection, InjectModel } from '@nestjs/mongoose';
-import { Connection, connection, Model } from 'mongoose';
+import { Connection, Model } from 'mongoose';
 import { Order } from './schemas/order.schema';
 
 @Injectable()
