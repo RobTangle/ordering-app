@@ -50,7 +50,7 @@ services:
       - ./apps/auth/.env
     depends_on:
       - mongodb-primary
-      - mongodb-secundary
+      - mongodb-secondary
       - mongodb-arbiter
       - rabbitmq
     volumes:
